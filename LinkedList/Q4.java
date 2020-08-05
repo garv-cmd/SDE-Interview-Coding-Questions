@@ -24,13 +24,15 @@ public class Q4 {
             return head;
         }
         int k=1;
+
         ListNode t = head;
-        while(k++!=res){
+        while(k++!= res){
             t = t.next;
         }
         t.next = t.next.next;
         return head;
     }
+    *
     *
     * */
 }
