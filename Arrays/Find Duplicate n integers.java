@@ -8,7 +8,7 @@ package Arrays;
 *
 * LEETCODE -287
 * */
-public class Q1 {
+class Q1 {
     public static int findDuplicate(int[] nums){
 //solution ->LinkedList Cycle Method + Tortoise Method
         int slow = nums[0];
